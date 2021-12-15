@@ -40,10 +40,6 @@ You're sections headers will be used to reference location of destination.
 
 ---
 
-[Back To The Top](#login-and-register-using-sharedpreferences)
-
----
-
 ## Developer
 
 - Twitter - [@ISupermahL](https://twitter.com/ISupermahl)
