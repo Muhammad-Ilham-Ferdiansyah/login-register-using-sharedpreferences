@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientpurple"
+    tools:context=".ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="40dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="My Profile"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_inputRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/sp_rectangle_both">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:backgroundTint="#FFFFFF"
+                    android:padding="20dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/logo" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_profile"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/sp_rectangle_up">
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="28dp"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Muhammad Ilham Ferdiansyah"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_profile1"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="310dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/sp_rectangle_bottom">
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="28dp"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/ic_baseline_mail_outline_24"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="ilhamferdiansyah737@gmail.com"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/showmore"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="380dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/sp_rectangle_both"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Show more">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/showmore"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/sp_rectangle_both"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Logout">
+
+                </Button>
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

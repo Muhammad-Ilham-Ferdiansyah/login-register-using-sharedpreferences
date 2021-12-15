@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientpurple"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/rl_inputRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/sp_rectangle_both">
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginLeft="20dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/montserrat"
+                android:hint="Username" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_mail_outline_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/montserrat"
+                android:hint="Email"
+                android:inputType="textEmailAddress">
+
+            </EditText>
+
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="100dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/montserrat"
+                android:inputType="textPassword"
+                android:hint="Password">
+
+            </EditText>
+
+         >
+
+            <EditText
+                android:id="@+id/et_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="20dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_add_location_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/montserrat"
+                android:hint="Alamat">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_telepon"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="220dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_call_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/montserrat"
+                android:hint="Telepon"
+                android:inputType="number">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_jenkel"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="280dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_face_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/montserrat"
+                android:hint="Jenis Kelamin"
+                android:inputType="text">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_hobi"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="340dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_baseline_mood_24"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/montserrat"
+                android:hint="Hobi"
+                android:inputType="text">
+
+            </EditText>
+
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/et_hobi"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/sp_rectangle_both"
+                android:fontFamily="@font/montserrat"
+                android:padding="10dp"
+                android:text="Register"
+                android:textStyle="bold">
+
+            </Button>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

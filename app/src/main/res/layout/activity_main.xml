@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientpurple"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_input"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/sp_rectangle_root"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/montserrat"
+            android:hint="Username"></EditText>
+
+        <View
+            android:id="@+id/v_separator"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/input_username"
+            android:background="@drawable/gradientpurple" />
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/v_separator"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/montserrat"
+            android:hint="Password"
+            android:inputType="textPassword"></EditText>
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/ic_baseline_arrow_forward_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rl_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_input"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/sp_rectangle_both"
+        android:fontFamily="@font/montserrat"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="20sp">
+
+    </Button>
+
+</RelativeLayout>
