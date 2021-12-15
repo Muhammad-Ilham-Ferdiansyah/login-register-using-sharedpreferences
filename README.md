@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # Read Me Template
 
 ![Project Image](project-image-url)
@@ -7,6 +9,7 @@
 ---
 
 ### Table of Contents
+
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
@@ -19,7 +22,7 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+Creating ReadMe's for your Github repository can be tedious. I hope this template can save you time and effort as well as provide you with some consistency across your projects.
 
 #### Technologies
 
@@ -34,18 +37,18 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 
 #### Installation
 
-
-
 #### API Reference
 
 ```html
-    <p>dummy code</p>
+<p>dummy code</p>
 ```
+
 [Back To The Top](#read-me-template)
 
 ---
 
 ## References
+
 [Back To The Top](#read-me-template)
 
 ---
