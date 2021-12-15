@@ -10,7 +10,7 @@ You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [Activity](#activity)
-- [Technology](#technology)
+- [Technology](#technologies)
 - [License](#license)
 - [Developer](#developer)
 
@@ -37,7 +37,7 @@ You're sections headers will be used to reference location of destination.
 - Java 17.1
 - jdk 17
 
-[Back To The Top](#login-register-using-sharedpreferences)
+[Back To The Top](#login-and-register-using-sharedpreferences)
 
 ---
 
@@ -65,7 +65,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back To The Top](#login-register-using-sharedpreferences)
+[Back To The Top](#login-and-register-using-sharedpreferences)
 
 ---
 
