@@ -1,10 +1,6 @@
-<<<<<<< HEAD
+# Login and Register using SharedPreferences
 
-# Read Me Template
-
-![Project Image](project-image-url)
-
-> This is a ReadMe template to help save you time and effort.
+> This project is dedicated to midterm exams of mobile programming courses
 
 ---
 
@@ -13,43 +9,35 @@
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
-- [How To Use](#how-to-use)
-- [References](#references)
+- [Activity](#activity)
+- [Technology](#technology)
 - [License](#license)
-- [Author Info](#author-info)
+- [Developer](#developer)
 
 ---
 
 ## Description
 
-Creating ReadMe's for your Github repository can be tedious. I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+- Validation of Data Registration
+- SharedPreferences memory
+- Registration form scrollable
+- Splashscreen show up when application running for the first time
+
+## Activity
+
+- SplashScreenActivity
+- LoginActivity
+- RegisterActivity
+- ProfileActivity
+- DetailActivity
 
 #### Technologies
 
-- Technology 1
-- Technology 2
+- Android Studio
+- Java 17.1
+- jdk 17
 
-[Back To The Top](#read-me-template)
-
----
-
-## How To Use
-
-#### Installation
-
-#### API Reference
-
-```html
-<p>dummy code</p>
-```
-
-[Back To The Top](#read-me-template)
-
----
-
-## References
-
-[Back To The Top](#read-me-template)
+[Back To The Top](#login-register-using-sharedpreferences)
 
 ---
 
@@ -57,7 +45,7 @@ Creating ReadMe's for your Github repository can be tedious. I hope this templat
 
 MIT License
 
-Copyright (c) [2017] [James Q Quick]
+Copyright (c) [2017]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -77,13 +65,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#login-register-using-sharedpreferences)
 
 ---
 
-## Author Info
+## Developer
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
-
-[Back To The Top](#read-me-template)
+- Twitter - [@ISupermahL](https://twitter.com/ISupermahl)
+- Instagram - [Muhammad Ilham Ferdiansyah](https://www.instagram.com/hmfrdnsyh_/)
