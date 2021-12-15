@@ -65,7 +65,6 @@
 
             </EditText>
 
-         >
 
             <EditText
                 android:id="@+id/et_alamat"

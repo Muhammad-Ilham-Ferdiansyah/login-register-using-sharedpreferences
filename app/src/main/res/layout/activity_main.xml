@@ -23,7 +23,9 @@
             android:drawableLeft="@drawable/ic_baseline_person_outline_24"
             android:drawablePadding="20dp"
             android:fontFamily="@font/montserrat"
-            android:hint="Username"></EditText>
+            android:hint="Username">
+
+        </EditText>
 
         <View
             android:id="@+id/v_separator"
@@ -42,7 +44,9 @@
             android:drawablePadding="20dp"
             android:fontFamily="@font/montserrat"
             android:hint="Password"
-            android:inputType="textPassword"></EditText>
+            android:inputType="textPassword">
+
+        </EditText>
     </RelativeLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

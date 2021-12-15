@@ -8,7 +8,6 @@
     android:background="@drawable/gradientpurple"
     tools:context=".SplashScreenActivity"
     android:id="@+id/splash_screen">
-    android:id="@+id/splash_screen">
 
     <ImageView
         android:layout_width="150dp"
@@ -18,7 +17,6 @@
         android:backgroundTint="#FFFFFF"
         android:scaleType="centerCrop"
         android:src="@drawable/logo"
-
         />
 
     <ProgressBar
